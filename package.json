@@ -1,0 +1,24 @@
+{
+  "name": "prmsf",
+  "version": "1.0.0",
+  "description": "Lightweight promisifier",
+  "main": "p.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helios1138/prmsf.git"
+  },
+  "author": "Helios <revan.den@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "promise",
+    "promisify",
+    "promisifier",
+    "wrap",
+    "wrapper",
+    "bind"
+  ],
+  "bugs": {
+    "url": "https://github.com/helios1138/prmsf/issues"
+  },
+  "homepage": "https://github.com/helios1138/prmsf"
+}
