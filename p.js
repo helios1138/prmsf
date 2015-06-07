@@ -32,5 +32,16 @@ module.exports = {
 
   bind: function (fn, thisArg) {
     return pCall.bind(null, thisArg ? fn.bind(thisArg) : fn);
+  },
+
+  defer: function () {
+    var result = {};
+
+    result.promise = new Promise(function (resolve, reject) {
+      result.resolve = resolve;
+      result.reject = reject;
+    });
+
+    return result;
   }
 };
