@@ -27,3 +27,13 @@ function connect() {
   return mongoConnect('mongodb://localhost:27017/mydb');
 }
 ```
+
+```js
+var deferred = p.defer();
+
+setTimeout(function(){ deferred.resolve(123); }, 1000);
+
+deferred.promise.then(function(result){
+  console.log(result);
+});
+```
